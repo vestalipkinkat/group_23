@@ -1,6 +1,4 @@
-Group_23_Channel, [05.10.21 16:46]
-[В ответ на Group_23_Channel]
-GIT Homework 1
+ЗАДАНИЕ НОМЕР 2
 
 Для выполнения задания у вас должен быть установлен для Windows - GitBash.
 Создан аккаунт в GitHub
