@@ -1,8 +1,11 @@
-~ <thatilove>
-	<book>
-		<harrypotter>Книга</harrypotter>
-		<autor>Rouling Joana<autor>
-			</book>
-			<food>
-				<sushi>Filadelfiya<sushi>
-					</food>
+<aboutme>
+	<name>
+		<name>Kate</name>
+		<2nane>Kastsian<2name>
+			</name>
+                          <years>29<years>
+			       <mylovefood>
+				      <sushi>Filadelfiya<sushi>
+					  </mylovefood>
+                                               <salary>
+                                                     <desiredSalary>1700$</desiredSalary>
