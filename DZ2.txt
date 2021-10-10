@@ -59,3 +59,4 @@ i love summer
 I want to go Indonezia</Text>
  29. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - commit changes
  30. Синхронизировать внешний и локальный репозитории  - git pull 
+

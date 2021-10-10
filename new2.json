@@ -1,7 +1,9 @@
 {
- "FirsName": "Kate";
- "LastName": "Kastsian";
- "Ages": "29";
- "PetsNumber": "0";
- "ExpectedSalary": "1700$"
-}
+ "FirsName": "Kate",
+ "LastName": "Kastsian",
+ "Ages": 29,
+ "PetsNumber": 0,
+ "ExpectedSalary": 1700$}
+~ { 
+ "LoveCountry": "Belarus",
+ "LoveFilm": "GreenBook"}
