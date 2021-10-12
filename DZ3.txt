@@ -1,0 +1,65 @@
+1. На локальном репозитории сделать ветки для:  
+- Postman  -git branch
+- Jmeter - git branch
+- CheckLists
+- Bag Reports
+- SQL
+- Charles
+- Mobile testing
+
+2. Запушить все ветки на внешний репозиторий - git push origin --all
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - git checkout BagReports
+touch Structura_bagreports.txt 
+vim Structura_bagreports.txt
+   Структура :
+    Bag_id:  номер
+    Title: что, где , когда или при каких условиях?
+    Environment: на каком дивайсе, в каком приложении или в каком браузере
+    Precondition: http//........  (пример)
+    STR: шаги воспроизведения.  Нужно показать весь путь, котрый приводит к выводу бага. 
+    AR: актуальный результат (пример: цвет кнопки отличается от текста)
+    ER: ожидаемый результат (пример: цвет кнопки должен отличаться от текста на ней)
+    Attachment: (присоеденили фото/видео/скрин)
+
+esc: wq 
+       
+
+4. Запушить структуру багрепорта на внешний репозиторий
+git add .
+git commit -m "Structura"
+git push --set-upstream origin BagReports
+
+5. Вмержить ветку Bag Reports в Main
+git checkout main
+git merge BagReports
+
+6. Запушить main на внешний репозиторий.
+ git push
+
+7. В ветке CheckLists набросать структуру чек листа.
+ git checkout CheckLists
+ touch Structura_CheckList.txt
+ vim Structura_CheckList.txt
+     
+Structura_CheckList
+1 Заголовок
+   Описать проект
+2 Подзаголовок
+   Написать название функционала, отдельного элемента продукта (Например: Поле поиска)
+3 Краткое описание теста
+   Описать действие. Пример: ввести пароль на латинице
+
+
+8. Запушить структуру на внешний репозиторий 
+git push --set-upstream origin CheckLists
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+зайти на github
+open a pull request
+creat pull request 
+      "This branch has no conflicts with the base branch"
+Merging can be performed automatically.
+  Create Merge -кнопка 
+  
+10. Синхронизировать Внешнюю и Локальную ветки Main
+автоматически синхронизировалось предыдущей кнопкой.   или git pull  (если не было автоматического пула)
